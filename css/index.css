@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-/* Top Content! */
+/* Header and Top Content! (Home Page */
 
 .container {
     
@@ -104,6 +104,10 @@ a {
      margin: 45px; 
 }
 
+a:hover {
+	color: blue; 
+}
+
 
 header img{
     display: flex; 
@@ -132,7 +136,7 @@ header img{
     
 }
 
-/* Top Content! */
+/* Middle Content (Home Page) */
 
 .middle-content {
     margin-bottom: 20px;
@@ -167,6 +171,8 @@ header img{
     align-items: center;
     justify-content: center;
 }
+
+/* Bottom Content (Home Page) */
 
 .bottom-content {
     display: flex;
@@ -204,3 +210,59 @@ footer nav a {
 h2 {
     text-align: center; 
 }
+
+/* Top Content (My About Page)  */
+
+.aboutcontainer {
+    margin: 20px; 
+    padding-bottom: 100px; 
+}
+
+.about1 {
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+.child1 {
+    margin: 30px; 
+    padding: 50px;
+    border-bottom: 2px dotted black; 
+}
+
+/* Middle Content (My About Page */
+
+.container2 {
+	display: flex; 
+	flex-flow: row wrap; 
+	justify-content: space-between; 
+	/* width: 745px;  */
+    height: auto;  
+    border-bottom: 2px dotted black;
+    margin: 20px; 
+    padding: 20px; 
+ }
+
+ .servicesweoffer {
+    margin: 10px;
+    border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+	width: 430px;  
+	margin: 10px; 
+	padding: 30px;
+	background: lightgray; 
+}
+
+/* Bottom Content (My About Page) */
+/* Was created with HTML (I was running out of time and HTML was faster) */
+
+
+
+
+
+
+
+
+
+
+
+    
